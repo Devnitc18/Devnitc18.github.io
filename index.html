@@ -33,11 +33,20 @@
             top: 0;
             z-index: 1;
         }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            margin: 0;
+            padding: 10px;
+        }
         nav a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
-            display: block;
             transition: background-color 0.3s;
         }
         nav a:hover {
@@ -72,19 +81,21 @@
 </head>
 <body>
     <header>
-        <img src="image/dev.jpg" alt="Devendra Singh" width="200">
+        <img src="images/your_picture.jpg" alt="Devendra Singh" width="200">
         <h1>Devendra Singh</h1>
         <p>Industrial Engineer | Research Scholar</p>
     </header>
     <nav>
-        <a href="#profile">Profile</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#projects">Projects</a>
-        <a href="#languages">Languages</a>
-        <a href="#interests">Interests</a>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#interests">Interests</a></li>
+        </ul>
     </nav>
     <section id="profile">
         <h2>Profile</h2>
