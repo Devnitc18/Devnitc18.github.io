@@ -2,39 +2,105 @@
 <html>
 <head>
     <title>Devendra Singh - Industrial Engineer</title>
-    <!-- Add any CSS links or styles here -->
     <style>
-        /* Add your CSS styles here */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #3498db;
+            color: white;
+        }
+        h1, h2 {
+            font-weight: bold;
+            color: #3498db;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #34495e;
+        }
+        section {
+            padding: 50px;
+            margin: 20px 0;
+            background-color: white;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        section h2 {
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 16px;
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            color: #3498db;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #34495e;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="images/your_picture.jpg" alt="Devendra Singh" width="200">
         <h1>Devendra Singh</h1>
-        <p>Industrial Engineer</p>
+        <p>Industrial Engineer | Research Scholar</p>
     </header>
     <nav>
-        <!-- Add your navigation links here -->
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#languages">Languages</a>
+        <a href="#interests">Interests</a>
     </nav>
     <section id="profile">
         <h2>Profile</h2>
         <p>
-            As an Industrial Engineer, leveraging knowledge of Statistics, Business growth, and Supply chain
-            to deliver business insights via Data Analytics and Machine Learning. Skilled in Data training,
-            modelling and validation using Python, SQL, Advanced excel.
+            Passionate about utilizing Statistics, Business growth, and Supply chain knowledge to deliver valuable insights through Data Analytics and Machine Learning. Proficient in Python, SQL, and Advanced Excel for data modeling and validation.
         </p>
     </section>
     <section id="experience">
         <h2>Professional Experience</h2>
         <h3>Project Assistant - IIT Madras</h3>
         <p>
-            Conducted research on the vortex-induced vibration phenomenon in offshore structures.
-            Developed simulation models to analyze the effects of parameters on the vibration behavior.
-            Utilized Python and MATLAB for data analysis, visualization, and simulation.
+            Conducted extensive research on vortex-induced vibration phenomenon in offshore structures. Developed simulation models to analyze parameter effects on vibration behavior using Python and MATLAB for data analysis and visualization.
         </p>
         <h3>Project Assistant - IIT Delhi</h3>
         <p>
-            Conducted research on the prediction of tropospheric ozone using the WRF-chem model.
-            Analyzed atmospheric data and developed statistical models to predict ozone levels.
+            Analyzed atmospheric data to predict tropospheric ozone levels using WRF-chem model. Developed statistical models for prediction.
         </p>
     </section>
     <section id="skills">
@@ -79,26 +145,15 @@
         <h2>Projects</h2>
         <h3>Bearing fault diagnosis using convolutional neural network</h3>
         <p>
-            Implemented CNN for diagnosing faults of rolling element bearings by transforming 1-D
-            vibration signals into 2-D images and exploiting the effectiveness of CNN in image
-            classification.
-            Achieved accuracy in the CWRU bearing dataset.
-            Utilized TensorFlow and Keras for model development and evaluation.
+            Implemented CNN for diagnosing faults of rolling element bearings by transforming 1-D vibration signals into 2-D images. Achieved accuracy in the CWRU bearing dataset using TensorFlow and Keras.
         </p>
         <h3>Predicting Travel Mode of Individuals by Machine Learning</h3>
         <p>
-            Aimed to understand what mode of transport employees prefer to commute to their office.
-            Developed a model to predict whether or not an employee will use a car as a mode of
-            transport and which variables are significant predictors behind this decision.
-            Utilized Python and Scikit-learn for data analysis, preprocessing, and model development.
+            Developed a model to predict employee commuting preferences using Python and Scikit-learn. Identified significant predictors behind mode of transport decisions.
         </p>
         <h3>Transportation Problem using Linear Programming in Python</h3>
         <p>
-            Used Python PuLP to solve transportation problems using linear programming.
-            Solved the problem of transporting goods from source warehouses to various destination
-            locations at minimum cost.
-            Analyzed demand quantities, supply quantities, and the cost of shipping from source and
-            destination.
+            Solved transportation problems using Python PuLP. Analyzed demand and supply quantities along with shipping costs for optimal solutions.
         </p>
     </section>
     <section id="languages">
@@ -108,8 +163,8 @@
     <section id="interests">
         <h2>Interests</h2>
         <ul>
-            <li>Motivational Speaking, Mentoring and Counselling</li>
-            <li>Debate Discussion | Theatre on Social awareness</li>
+            <li>Motivational Speaking, Mentoring, Counselling</li>
+            <li>Debate Discussion | Theatre on Social Awareness</li>
             <li>Drawing, Reading, Playing Cricket</li>
         </ul>
     </section>
@@ -118,3 +173,4 @@
     </footer>
 </body>
 </html>
+
